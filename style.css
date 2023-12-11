@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+h1{
+    color: hsl(0, 0%, 30%);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+.container{
+    background-color: #fff;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 0.3);
+}
+
+label{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+input{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsl(0, 0%, 70%);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: #0f0;
+    color: #fff;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    padding: 10px, 15px;
+    cursor: pointer;
+    height: 40px;
+}
+
+button:hover{
+    background-color: hsl(120, 100%, 30%);
+}
+#total{
+    font-size: 2em;
+}
+#total-amount{
+    color:  hsl(120, 100%, 35%);
+    font-weight: bold;
+}
